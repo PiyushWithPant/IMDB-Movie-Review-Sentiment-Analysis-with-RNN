@@ -1,0 +1,40 @@
+# Virtual environments
+venv/
+env/
+
+# Python cache and environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.arrow
+venv/
+env/
+*.egg-info/
+
+# System files
+.DS_Store
+Thumbs.db
+data/.DS_Store
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and outputs
+logs/
+*.log
+outputs/
+
+# Experiment tracking / MLflow / WandB
+.mlflow/
+wandb/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore the jigsaw dataset kaggle folder
+/data/jigsaw dataset kaggle
